@@ -1,0 +1,12 @@
+logging:
+  level:
+    org:
+      springframework:
+        batch:
+          item:
+            database: DEBUG
+
+spring:
+  batch:
+    job:
+      enabled: false
