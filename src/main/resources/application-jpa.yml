@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ${GLODDY_DATASOURCE_USERNAME}
+    password: ${GLODDY_DATASOURCE_PASSWORD}
+    url: ${GLODDY_DATASOURCE_URL}
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: ${SHOW_SQL}
+    properties:
+      hibernate:
+        default_batch_fetch_size: 50
+        format_sql: true

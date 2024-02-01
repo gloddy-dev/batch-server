@@ -1,0 +1,6 @@
+spring:
+  config:
+    import:
+      - application-batch.yml
+      - application-dynamodb.yml
+      - application-jpa.yml
